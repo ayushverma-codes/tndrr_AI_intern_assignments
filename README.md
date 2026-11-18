@@ -1,0 +1,1 @@
+# tndrr_AI_intern_assignments
