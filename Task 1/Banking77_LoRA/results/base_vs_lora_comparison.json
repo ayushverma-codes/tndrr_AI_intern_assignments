@@ -1,0 +1,16 @@
+[
+    {
+        "model": "Base",
+        "accuracy": 0.18928571428571428,
+        "macro_f1": 0.1896656239813382,
+        "weighted_f1": 0.1896656239813382,
+        "invalid_prediction_rate": 0.2649350649350649
+    },
+    {
+        "model": "LoRA fine-tuned",
+        "accuracy": 0.9181818181818182,
+        "macro_f1": 0.9185848709116631,
+        "weighted_f1": 0.9185848709116631,
+        "invalid_prediction_rate": 0.0003246753246753247
+    }
+]

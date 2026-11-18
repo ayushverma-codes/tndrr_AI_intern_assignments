@@ -1,0 +1,12 @@
+{
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "dataset": "PolyAI/banking77",
+    "test_examples": 3080,
+    "num_classes": 77,
+    "accuracy": 0.18928571428571428,
+    "macro_f1": 0.1896656239813382,
+    "weighted_f1": 0.1896656239813382,
+    "valid_predictions": 2264,
+    "invalid_predictions": 816,
+    "invalid_prediction_rate": 0.2649350649350649
+}

@@ -1,0 +1,4 @@
+text,true_label_id,true_intent,raw_output,predicted_intent,predicted_label_id,correct
+I had a wrong fee charged at this ATM.,19,cash_withdrawal_charge,wrong_charge,__invalid__,-1,False
+How do I locate my card?,11,card_arrival,lost_or_stolen_card,lost_or_stolen_card,41,False
+When will I get my card?,11,card_arrival,card_delivery_estimate,card_delivery_estimate,12,False

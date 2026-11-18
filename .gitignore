@@ -221,3 +221,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Submission: secrets, local editor files, downloaded models, and checkpoints
+.env.*
+!.env.example
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.tmp
+*.safetensors
+*.gguf
+*.pt
+*.pth
+*.bin
+*.onnx
+checkpoint-*/
+*.zip
+*.7z
+*.tar
+*.gz

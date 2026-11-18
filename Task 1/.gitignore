@@ -1,0 +1,10 @@
+# Recreated by the notebook from PolyAI/banking77
+/Banking77_LoRA/dataset/
+
+# Retain adapter settings; weights and tokenizer copies stay local
+/Banking77_LoRA/lora_adapter/*
+!/Banking77_LoRA/lora_adapter/adapter_config.json
+!/Banking77_LoRA/lora_adapter/experiment_config.json
+
+# Duplicate downloaded exports; canonical copies are in Banking77_LoRA/results
+/local_exports/

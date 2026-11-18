@@ -1,0 +1,4 @@
+text,true_label_id,true_intent,raw_output,predicted_intent,predicted_label_id,correct
+How do I locate my card?,11,card_arrival,locate_card,__invalid__,-1,False
+Do you know if there is a tracking number for the new card you sent me?,11,card_arrival,tracking_number,__invalid__,-1,False
+How do I track my card?,11,card_arrival,track_card,__invalid__,-1,False

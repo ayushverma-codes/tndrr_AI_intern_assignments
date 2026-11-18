@@ -1,0 +1,13 @@
+{
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "method": "LoRA",
+    "dataset": "PolyAI/banking77",
+    "test_examples": 3080,
+    "num_classes": 77,
+    "accuracy": 0.9181818181818182,
+    "macro_f1": 0.9185848709116631,
+    "weighted_f1": 0.9185848709116631,
+    "valid_predictions": 3079,
+    "invalid_predictions": 1,
+    "invalid_prediction_rate": 0.0003246753246753247
+}
