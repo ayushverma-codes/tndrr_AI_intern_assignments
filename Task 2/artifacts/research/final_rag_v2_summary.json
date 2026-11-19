@@ -1,0 +1,18 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "retrieval": "Hybrid MiniLM + BM25 + RRF",
+  "generation": "Focused evidence",
+  "safeguards": [
+    "Lexical evidence gate",
+    "Numerical-presence verification"
+  ],
+  "answerable_questions": 15,
+  "answers_generated": 15,
+  "answerable_abstentions": 0,
+  "gold_page_in_evidence": 15,
+  "unsupported_questions": 7,
+  "correct_unsupported_abstentions": 7,
+  "unsupported_answers_generated": 0,
+  "manual_answer_accuracy": null,
+  "claim_level_citation_verification": false
+}

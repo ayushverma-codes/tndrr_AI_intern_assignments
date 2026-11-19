@@ -1,0 +1,259 @@
+[
+  {
+    "question_id": "Q01",
+    "original_answer": "The four core functions of the AI RMF are **govern, map, measure, and manage**【E1】.",
+    "normalized_answer": "The four core functions of the AI RMF are **govern, map, measure, and manage**[E1].",
+    "citation_format_pass": true,
+    "citation_ids": [
+      "E1"
+    ],
+    "cited_pages": [
+      25
+    ],
+    "invalid_citations": [],
+    "manual_factual_review": "pending",
+    "claim_level_support_verified": false
+  },
+  {
+    "question_id": "Q02",
+    "original_answer": "The GOVERN function clarifies and defines the roles and responsibilities of humans in AI team configurations and those overseeing AI performance, and establishes mechanisms to make decision‑making processes explicit to counter systemic biases. It is a cross‑cutting function infused throughout AI risk management, enabling the other functions and ensuring compliance and evaluation are integrated into all stages of the process. [E1] [E3]",
+    "normalized_answer": "The GOVERN function clarifies and defines the roles and responsibilities of humans in AI team configurations and those overseeing AI performance, and establishes mechanisms to make decision‑making processes explicit to counter systemic biases. It is a cross‑cutting function infused throughout AI risk management, enabling the other functions and ensuring compliance and evaluation are integrated into all stages of the process. [E1] [E3]",
+    "citation_format_pass": true,
+    "citation_ids": [
+      "E1",
+      "E3"
+    ],
+    "cited_pages": [
+      27,
+      46
+    ],
+    "invalid_citations": [],
+    "manual_factual_review": "pending",
+    "claim_level_support_verified": false
+  },
+  {
+    "question_id": "Q03",
+    "original_answer": "The MAP function establishes the context to frame risks related to an AI system and suggests opportunities to define and document processes for operator and practitioner proficiency with AI system performance and trustworthiness concepts, as well as relevant technical standards and certifications. [E1][E2][E3]",
+    "normalized_answer": "The MAP function establishes the context to frame risks related to an AI system and suggests opportunities to define and document processes for operator and practitioner proficiency with AI system performance and trustworthiness concepts, as well as relevant technical standards and certifications. [E1][E2][E3]",
+    "citation_format_pass": true,
+    "citation_ids": [
+      "E1",
+      "E2",
+      "E3"
+    ],
+    "cited_pages": [
+      29,
+      46
+    ],
+    "invalid_citations": [],
+    "manual_factual_review": "pending",
+    "claim_level_support_verified": false
+  },
+  {
+    "question_id": "Q04",
+    "original_answer": "The MEASURE function is used to assess, benchmark, and monitor AI risk and its impacts by employing quantitative, qualitative, or mixed‑method tools, techniques, and methodologies. Its outcomes feed into the manage function to support risk monitoring and response, and users must continue applying it as knowledge, methods, risks, and impacts evolve over time. [E2] [E3]",
+    "normalized_answer": "The MEASURE function is used to assess, benchmark, and monitor AI risk and its impacts by employing quantitative, qualitative, or mixed‑method tools, techniques, and methodologies. Its outcomes feed into the manage function to support risk monitoring and response, and users must continue applying it as knowledge, methods, risks, and impacts evolve over time. [E2] [E3]",
+    "citation_format_pass": true,
+    "citation_ids": [
+      "E2",
+      "E3"
+    ],
+    "cited_pages": [
+      33
+    ],
+    "invalid_citations": [],
+    "manual_factual_review": "pending",
+    "claim_level_support_verified": false
+  },
+  {
+    "question_id": "Q05",
+    "original_answer": "The MANAGE function addresses identified AI risks by using the knowledge gathered in the MAP function to inform its risk‑management activities, documenting and evaluating measures, and implementing mechanisms to track those risks over time. It also defines specific categories and subcategories for managing AI risks, as outlined in the NIST AI RMF playbook. [E1] [E2] [E3]",
+    "normalized_answer": "The MANAGE function addresses identified AI risks by using the knowledge gathered in the MAP function to inform its risk‑management activities, documenting and evaluating measures, and implementing mechanisms to track those risks over time. It also defines specific categories and subcategories for managing AI risks, as outlined in the NIST AI RMF playbook. [E1] [E2] [E3]",
+    "citation_format_pass": true,
+    "citation_ids": [
+      "E1",
+      "E2",
+      "E3"
+    ],
+    "cited_pages": [
+      33,
+      35,
+      37
+    ],
+    "invalid_citations": [],
+    "manual_factual_review": "pending",
+    "claim_level_support_verified": false
+  },
+  {
+    "question_id": "Q06",
+    "original_answer": "NIST associates the following characteristics with trustworthy AI: valid and reliable, safe, secure and resilient, accountable and transparent, explainable and interpretable, privacy‑enhanced, and fair with harmful bias managed【E2】.",
+    "normalized_answer": "NIST associates the following characteristics with trustworthy AI: valid and reliable, safe, secure and resilient, accountable and transparent, explainable and interpretable, privacy‑enhanced, and fair with harmful bias managed[E2].",
+    "citation_format_pass": true,
+    "citation_ids": [
+      "E2"
+    ],
+    "cited_pages": [
+      17
+    ],
+    "invalid_citations": [],
+    "manual_factual_review": "pending",
+    "claim_level_support_verified": false
+  },
+  {
+    "question_id": "Q07",
+    "original_answer": "In the NIST AI RMF, “valid” means that an AI system’s outputs are accurate and appropriate for the specific intended use or application, while “reliable” means that the system consistently performs as intended over time and across varied data and settings. These qualities are assessed through ongoing testing or monitoring that confirms the system’s validity, accuracy, robustness, and reliability, thereby contributing to overall trustworthiness [E1][E2].",
+    "normalized_answer": "In the NIST AI RMF, “valid” means that an AI system’s outputs are accurate and appropriate for the specific intended use or application, while “reliable” means that the system consistently performs as intended over time and across varied data and settings. These qualities are assessed through ongoing testing or monitoring that confirms the system’s validity, accuracy, robustness, and reliability, thereby contributing to overall trustworthiness [E1][E2].",
+    "citation_format_pass": true,
+    "citation_ids": [
+      "E1",
+      "E2"
+    ],
+    "cited_pages": [
+      18,
+      19
+    ],
+    "invalid_citations": [],
+    "manual_factual_review": "pending",
+    "claim_level_support_verified": false
+  },
+  {
+    "question_id": "Q08",
+    "original_answer": "NIST describes AI safety as the systematic prevention of unintended or harmful behavior through responsible design, development, and deployment practices, clear guidance to deployers, responsible decision‑making by users, and ongoing monitoring and documentation of risks, including the ability to shut down or modify systems that deviate from intended functionality [E1][E2][E3].",
+    "normalized_answer": "NIST describes AI safety as the systematic prevention of unintended or harmful behavior through responsible design, development, and deployment practices, clear guidance to deployers, responsible decision‑making by users, and ongoing monitoring and documentation of risks, including the ability to shut down or modify systems that deviate from intended functionality [E1][E2][E3].",
+    "citation_format_pass": true,
+    "citation_ids": [
+      "E1",
+      "E2",
+      "E3"
+    ],
+    "cited_pages": [
+      19,
+      20,
+      35
+    ],
+    "invalid_citations": [],
+    "manual_factual_review": "pending",
+    "claim_level_support_verified": false
+  },
+  {
+    "question_id": "Q09",
+    "original_answer": "Security and resilience are essential for trustworthy AI because they ensure that systems can withstand unexpected or adversarial use, protecting against misuse and abuse of models or data, and they provide accountability and transparency that underpin trustworthiness [E1]. By mitigating negative risks and supporting benefits for people, organizations, and ecosystems, secure and resilient AI contributes directly to the overall trustworthiness of the system [E2]. These qualities are explicitly evaluated and documented as part of the AI system’s security and resilience assessment [E3].",
+    "normalized_answer": "Security and resilience are essential for trustworthy AI because they ensure that systems can withstand unexpected or adversarial use, protecting against misuse and abuse of models or data, and they provide accountability and transparency that underpin trustworthiness [E1]. By mitigating negative risks and supporting benefits for people, organizations, and ecosystems, secure and resilient AI contributes directly to the overall trustworthiness of the system [E2]. These qualities are explicitly evaluated and documented as part of the AI system’s security and resilience assessment [E3].",
+    "citation_format_pass": true,
+    "citation_ids": [
+      "E1",
+      "E2",
+      "E3"
+    ],
+    "cited_pages": [
+      10,
+      20,
+      35
+    ],
+    "invalid_citations": [],
+    "manual_factual_review": "pending",
+    "claim_level_support_verified": false
+  },
+  {
+    "question_id": "Q10",
+    "original_answer": "Explainability refers to a representation of the mechanisms underlying an AI system’s operation, while interpretability refers to the meaning of the system’s output in the context of its designed functional purposes. [E1]",
+    "normalized_answer": "Explainability refers to a representation of the mechanisms underlying an AI system’s operation, while interpretability refers to the meaning of the system’s output in the context of its designed functional purposes. [E1]",
+    "citation_format_pass": true,
+    "citation_ids": [
+      "E1"
+    ],
+    "cited_pages": [
+      21
+    ],
+    "invalid_citations": [],
+    "manual_factual_review": "pending",
+    "claim_level_support_verified": false
+  },
+  {
+    "question_id": "Q11",
+    "original_answer": "The framework emphasizes that privacy values—such as anonymity, confidentiality, and control—should guide AI system design, development, and deployment, and it encourages the use of privacy‑enhancing technologies (PETs) and data‑minimizing methods like de‑identification and aggregation to support privacy‑enhanced AI systems. It also recommends leveraging existing standards and guidance, including the NIST Privacy Framework, to reduce security and privacy risks in AI deployments. [E1] [E3]",
+    "normalized_answer": "The framework emphasizes that privacy values—such as anonymity, confidentiality, and control—should guide AI system design, development, and deployment, and it encourages the use of privacy‑enhancing technologies (PETs) and data‑minimizing methods like de‑identification and aggregation to support privacy‑enhanced AI systems. It also recommends leveraging existing standards and guidance, including the NIST Privacy Framework, to reduce security and privacy risks in AI deployments. [E1] [E3]",
+    "citation_format_pass": true,
+    "citation_ids": [
+      "E1",
+      "E3"
+    ],
+    "cited_pages": [
+      22
+    ],
+    "invalid_citations": [],
+    "manual_factual_review": "pending",
+    "claim_level_support_verified": false
+  },
+  {
+    "question_id": "Q12",
+    "original_answer": "Harmful bias undermines AI fairness by creating and amplifying inequities, leading to discrimination against individuals, groups, and communities, and it is closely linked to transparency and the overall fairness of AI systems [E1][E2].",
+    "normalized_answer": "Harmful bias undermines AI fairness by creating and amplifying inequities, leading to discrimination against individuals, groups, and communities, and it is closely linked to transparency and the overall fairness of AI systems [E1][E2].",
+    "citation_format_pass": true,
+    "citation_ids": [
+      "E1",
+      "E2"
+    ],
+    "cited_pages": [
+      22,
+      23
+    ],
+    "invalid_citations": [],
+    "manual_factual_review": "pending",
+    "claim_level_support_verified": false
+  },
+  {
+    "question_id": "Q13",
+    "original_answer": "AI RMF profiles are used to help organizations decide how to manage AI risk in a way that aligns with their goals, legal and regulatory requirements, best practices, and risk‑management priorities. They provide concrete implementations of the framework’s functions, categories, and subcategories for a specific setting or application based on the organization’s requirements, risk tolerance, and resources. [E1] [E3]",
+    "normalized_answer": "AI RMF profiles are used to help organizations decide how to manage AI risk in a way that aligns with their goals, legal and regulatory requirements, best practices, and risk‑management priorities. They provide concrete implementations of the framework’s functions, categories, and subcategories for a specific setting or application based on the organization’s requirements, risk tolerance, and resources. [E1] [E3]",
+    "citation_format_pass": true,
+    "citation_ids": [
+      "E1",
+      "E3"
+    ],
+    "cited_pages": [
+      38
+    ],
+    "invalid_citations": [],
+    "manual_factual_review": "pending",
+    "claim_level_support_verified": false
+  },
+  {
+    "question_id": "Q14",
+    "original_answer": "The framework defines accountability and transparency as core characteristics of a trustworthy AI system, emphasizing that they involve both the internal processes of the AI and its external context. It states that accountability and transparency require that information about the AI system and its outputs be available and that measures to enhance them must consider the implementing entity’s resources and protection of proprietary information. This ensures that the system’s operations are both responsible and openly documented. [E2] [E3] [E1]",
+    "normalized_answer": "The framework defines accountability and transparency as core characteristics of a trustworthy AI system, emphasizing that they involve both the internal processes of the AI and its external context. It states that accountability and transparency require that information about the AI system and its outputs be available and that measures to enhance them must consider the implementing entity’s resources and protection of proprietary information. This ensures that the system’s operations are both responsible and openly documented. [E2] [E3] [E1]",
+    "citation_format_pass": true,
+    "citation_ids": [
+      "E2",
+      "E3",
+      "E1"
+    ],
+    "cited_pages": [
+      17,
+      20,
+      21
+    ],
+    "invalid_citations": [],
+    "manual_factual_review": "pending",
+    "claim_level_support_verified": false
+  },
+  {
+    "question_id": "Q15",
+    "original_answer": "AI risk management is considered a continuous process because it must be performed throughout the AI system lifecycle, with ongoing monitoring and periodic review of the risk management process and its outcomes, and mechanisms to inventory AI systems that are resourced according to organizational risk priorities [E1][E2]. This continuous approach ensures that risk is integrated across all AI actors and roles, preventing isolation of risk considerations and allowing timely updates as the system evolves [E3].",
+    "normalized_answer": "AI risk management is considered a continuous process because it must be performed throughout the AI system lifecycle, with ongoing monitoring and periodic review of the risk management process and its outcomes, and mechanisms to inventory AI systems that are resourced according to organizational risk priorities [E1][E2]. This continuous approach ensures that risk is integrated across all AI actors and roles, preventing isolation of risk considerations and allowing timely updates as the system evolves [E3].",
+    "citation_format_pass": true,
+    "citation_ids": [
+      "E1",
+      "E2",
+      "E3"
+    ],
+    "cited_pages": [
+      13,
+      25,
+      28
+    ],
+    "invalid_citations": [],
+    "manual_factual_review": "pending",
+    "claim_level_support_verified": false
+  }
+]

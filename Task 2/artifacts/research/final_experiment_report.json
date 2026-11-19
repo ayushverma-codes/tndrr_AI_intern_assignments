@@ -1,0 +1,85 @@
+{
+  "project": "RAG From Scratch — NIST AI RMF",
+  "document": {
+    "name": "NIST AI Risk Management Framework 1.0",
+    "pages": 48
+  },
+  "evaluation": {
+    "questions": 15,
+    "gold_evidence": "Manually annotated passages",
+    "matching": "Same PDF page and at least 12 consecutive matching normalized words"
+  },
+  "retrieval": {
+    "dense": "MiniLM embeddings with cosine similarity",
+    "lexical": "BM25 implemented from scratch",
+    "hybrid": "Reciprocal Rank Fusion",
+    "rrf_k": 60,
+    "candidate_k": 30
+  },
+  "comparison": [
+    {
+      "method": "dense",
+      "chunk_set": "large",
+      "Recall@1": 0.6,
+      "Recall@3": 0.8,
+      "Recall@5": 0.9333333333333332,
+      "MRR@5": 0.7077777777777778,
+      "PageHit@5": 0.9333333333333332
+    },
+    {
+      "method": "hybrid_rrf",
+      "chunk_set": "large",
+      "Recall@1": 0.6,
+      "Recall@3": 0.9333333333333332,
+      "Recall@5": 0.9333333333333332,
+      "MRR@5": 0.7444444444444444,
+      "PageHit@5": 0.9333333333333332
+    },
+    {
+      "method": "dense",
+      "chunk_set": "small",
+      "Recall@1": 0.6666666666666666,
+      "Recall@3": 0.8,
+      "Recall@5": 0.9333333333333332,
+      "MRR@5": 0.7522222222222222,
+      "PageHit@5": 0.9333333333333332
+    },
+    {
+      "method": "hybrid_rrf",
+      "chunk_set": "small",
+      "Recall@1": 0.7333333333333333,
+      "Recall@3": 0.9333333333333332,
+      "Recall@5": 0.9333333333333332,
+      "MRR@5": 0.8,
+      "PageHit@5": 0.9333333333333332
+    }
+  ],
+  "recovered_at_5": [
+    {
+      "question_id": "Q15",
+      "chunk_set": "small"
+    },
+    {
+      "question_id": "Q15",
+      "chunk_set": "large"
+    }
+  ],
+  "regressed_at_5": [
+    {
+      "question_id": "Q08",
+      "chunk_set": "small"
+    },
+    {
+      "question_id": "Q03",
+      "chunk_set": "large"
+    }
+  ],
+  "limitations": [
+    "Only 15 evaluation questions",
+    "Single 48-page source document",
+    "Gold-passage overlap is not answer accuracy",
+    "No statistical significance test",
+    "Hybrid parameters were not independently tuned",
+    "Extractive answer selection remains imperfect"
+  ]
+}

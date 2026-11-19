@@ -1,0 +1,90 @@
+[
+  {
+    "id": "H01",
+    "question": "What exact annual budget in US dollars does the NIST AI RMF assign to the GOVERN function?",
+    "expected": "abstain",
+    "answer": "Insufficient information in the retrieved document.",
+    "abstained": true,
+    "abstention_reason": "evidence_gate",
+    "number_verification": {
+      "passed": true,
+      "answer_numbers": [],
+      "unsupported_numbers": []
+    },
+    "passed": true
+  },
+  {
+    "id": "H02",
+    "question": "What exact percentage improvement in AI model accuracy does the MEASURE function guarantee?",
+    "expected": "abstain",
+    "answer": "Insufficient information in the retrieved document.",
+    "abstained": true,
+    "abstention_reason": "evidence_gate",
+    "number_verification": {
+      "passed": true,
+      "answer_numbers": [],
+      "unsupported_numbers": []
+    },
+    "passed": true
+  },
+  {
+    "id": "H03",
+    "question": "What exact numerical fairness score must every AI system achieve under the NIST AI RMF?",
+    "expected": "abstain",
+    "answer": "Insufficient information in the retrieved document.",
+    "abstained": true,
+    "abstention_reason": "evidence_gate",
+    "number_verification": {
+      "passed": true,
+      "answer_numbers": [],
+      "unsupported_numbers": []
+    },
+    "passed": true
+  },
+  {
+    "id": "H04",
+    "question": "What specific fine amount in US dollars does the AI RMF impose when organizations fail to manage AI risks?",
+    "expected": "abstain",
+    "answer": "Insufficient information in the retrieved document.",
+    "abstained": true,
+    "abstention_reason": "unsupported_numerical_claim",
+    "number_verification": {
+      "passed": false,
+      "answer_numbers": [
+        "$50,000"
+      ],
+      "unsupported_numbers": [
+        "$50,000"
+      ]
+    },
+    "passed": true
+  },
+  {
+    "id": "A01",
+    "question": "What are the four core functions of the AI RMF?",
+    "expected": "answer",
+    "answer": "The four core functions of the AI RMF are governance, mapping, measurement, and management.",
+    "abstained": false,
+    "abstention_reason": null,
+    "number_verification": {
+      "passed": true,
+      "answer_numbers": [],
+      "unsupported_numbers": []
+    },
+    "passed": true
+  },
+  {
+    "id": "A15",
+    "question": "Why is AI risk management considered a continuous process?",
+    "expected": "answer",
+    "answer": "AI risk management is considered a continuous process because it needs to be monitored and reviewed regularly throughout the entire lifecycle of an AI system.",
+    "abstained": false,
+    "abstention_reason": null,
+    "number_verification": {
+      "passed": true,
+      "answer_numbers": [],
+      "unsupported_numbers": []
+    },
+    "passed": true
+  }
+]

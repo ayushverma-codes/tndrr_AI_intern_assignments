@@ -1,0 +1,552 @@
+[
+  {
+    "question_id": "Q01",
+    "question": "What are the four core functions of the AI RMF?",
+    "gold_page": 25,
+    "answer": "The four core functions of the AI RMF are **govern, map, measure, and manage**【E1】.",
+    "abstained": false,
+    "citation_format_pass": false,
+    "cited_pages": [],
+    "evidence": [
+      {
+        "id": "E1",
+        "page": 25,
+        "chunk_id": "p25_t0",
+        "text": "ai rmf core the ai rmf core provides outcomes and actions that enable dialogue, understanding, and activities to manage ai risks and responsibly develop trustworthy ai systems. as illus - trated in figure 5, the core is composed of four functions : govern, map, measure, and manage."
+      },
+      {
+        "id": "E2",
+        "page": 25,
+        "chunk_id": "p25_t104",
+        "text": "ai rmf core functions should be carried out in a way that reflects diverse and multidisciplinary perspectives, potentially including the views of ai actors out - side the organization"
+      },
+      {
+        "id": "E3",
+        "page": 15,
+        "chunk_id": "p15_t208",
+        "text": "the ai rmf functions, described in section 5, require diverse perspectives, disciplines, professions, and experiences."
+      }
+    ],
+    "prompt_tokens": 304,
+    "completion_tokens": 56,
+    "total_tokens": 360,
+    "finish_reason": "stop",
+    "manual_answer_review": "pending"
+  },
+  {
+    "question_id": "Q02",
+    "question": "What is the purpose of the GOVERN function?",
+    "gold_page": 27,
+    "answer": "The GOVERN function clarifies and defines the roles and responsibilities of humans in AI team configurations and those overseeing AI performance, and establishes mechanisms to make decision‑making processes explicit to counter systemic biases. It is a cross‑cutting function infused throughout AI risk management, enabling the other functions and ensuring compliance and evaluation are integrated into all stages of the process. [E1] [E3]",
+    "abstained": false,
+    "citation_format_pass": true,
+    "cited_pages": [
+      27,
+      46
+    ],
+    "evidence": [
+      {
+        "id": "E1",
+        "page": 46,
+        "chunk_id": "p46_t0",
+        "text": "the govern function provides organizations with the opportunity to clarify and define the roles and responsibilities for the humans in the human - ai team configurations and those who are overseeing the ai system performance. the govern function also creates mechanisms for organizations to make their decision - making processes more explicit, to help counter systemic biases."
+      },
+      {
+        "id": "E2",
+        "page": 27,
+        "chunk_id": "p27_t208",
+        "text": "function, organizations should benefit from a purpose - driven culture focused on risk understanding and management. it is incumbent on framework users to continue to ex - ecute the govern function as knowledge, cultures, and needs or expectations from ai actors evolve over time."
+      },
+      {
+        "id": "E3",
+        "page": 27,
+        "chunk_id": "p27_t0",
+        "text": "0 govern is a cross - cutting function that is infused throughout ai risk management and enables the other functions of the process. aspects of govern, especially those related to compliance or evaluation, should be integrated into each of the other functions."
+      }
+    ],
+    "prompt_tokens": 342,
+    "completion_tokens": 91,
+    "total_tokens": 433,
+    "finish_reason": "stop",
+    "manual_answer_review": "pending"
+  },
+  {
+    "question_id": "Q03",
+    "question": "What does the MAP function establish about an AI system?",
+    "gold_page": 29,
+    "answer": "The MAP function establishes the context to frame risks related to an AI system and suggests opportunities to define and document processes for operator and practitioner proficiency with AI system performance and trustworthiness concepts, as well as relevant technical standards and certifications. [E1][E2][E3]",
+    "abstained": false,
+    "citation_format_pass": true,
+    "cited_pages": [
+      29,
+      46
+    ],
+    "evidence": [
+      {
+        "id": "E1",
+        "page": 29,
+        "chunk_id": "p29_t312",
+        "text": "the map function establishes the context to frame risks related to an ai system."
+      },
+      {
+        "id": "E2",
+        "page": 29,
+        "chunk_id": "p29_t208",
+        "text": "2 map the map function establishes the context to frame risks related to an ai system."
+      },
+      {
+        "id": "E3",
+        "page": 46,
+        "chunk_id": "p46_t104",
+        "text": "the map function suggests opportunities to define and document processes for operator and practitioner proficiency with ai system performance and trustworthiness concepts, and to define relevant technical standards and certifications."
+      }
+    ],
+    "prompt_tokens": 253,
+    "completion_tokens": 90,
+    "total_tokens": 343,
+    "finish_reason": "stop",
+    "manual_answer_review": "pending"
+  },
+  {
+    "question_id": "Q04",
+    "question": "What is the purpose of the MEASURE function?",
+    "gold_page": 33,
+    "answer": "The MEASURE function is used to assess, benchmark, and monitor AI risk and its impacts by employing quantitative, qualitative, or mixed‑method tools, techniques, and methodologies. Its outcomes feed into the manage function to support risk monitoring and response, and users must continue applying it as knowledge, methods, risks, and impacts evolve over time. [E2] [E3]",
+    "abstained": false,
+    "citation_format_pass": true,
+    "cited_pages": [
+      33
+    ],
+    "evidence": [
+      {
+        "id": "E1",
+        "page": 30,
+        "chunk_id": "p30_t0",
+        "text": "outcomes in the map function are the basis for the measure and manage functions."
+      },
+      {
+        "id": "E2",
+        "page": 33,
+        "chunk_id": "p33_t0",
+        "text": "3 measure the measure function employs quantitative, qualitative, or mixed - method tools, tech - niques, and methodologies to analyze, assess, benchmark, and monitor ai risk and related impacts."
+      },
+      {
+        "id": "E3",
+        "page": 33,
+        "chunk_id": "p33_t416",
+        "text": "measurement outcomes will be utilized in the manage function to assist risk monitoring and response efforts. it is in - cumbent on framework users to continue applying the measure function to ai systems as knowledge, methodologies, risks, and impacts evolve over time."
+      }
+    ],
+    "prompt_tokens": 290,
+    "completion_tokens": 98,
+    "total_tokens": 388,
+    "finish_reason": "stop",
+    "manual_answer_review": "pending"
+  },
+  {
+    "question_id": "Q05",
+    "question": "How does the MANAGE function address identified AI risks?",
+    "gold_page": 37,
+    "answer": "The MANAGE function addresses identified AI risks by using the knowledge gathered in the MAP function to inform its risk‑management activities, documenting and evaluating measures, and implementing mechanisms to track those risks over time. It also defines specific categories and subcategories for managing AI risks, as outlined in the NIST AI RMF playbook. [E1] [E2] [E3]",
+    "abstained": false,
+    "citation_format_pass": true,
+    "cited_pages": [
+      33,
+      35,
+      37
+    ],
+    "evidence": [
+      {
+        "id": "E1",
+        "page": 33,
+        "chunk_id": "p33_t104",
+        "text": "it uses knowledge relevant to ai risks identified in the map function and informs the manage function."
+      },
+      {
+        "id": "E2",
+        "page": 35,
+        "chunk_id": "p35_t312",
+        "text": "measure function are evaluated and documented. measure 3 : mechanisms for tracking identified ai risks over time are in place."
+      },
+      {
+        "id": "E3",
+        "page": 37,
+        "chunk_id": "p37_t0",
+        "text": "0 practices related to managing ai risks are described in the nist ai rmf playbook. table 4 lists the manage function ’ s categories and subcategories."
+      }
+    ],
+    "prompt_tokens": 262,
+    "completion_tokens": 112,
+    "total_tokens": 374,
+    "finish_reason": "stop",
+    "manual_answer_review": "pending"
+  },
+  {
+    "question_id": "Q06",
+    "question": "What characteristics does NIST associate with trustworthy AI?",
+    "gold_page": 17,
+    "answer": "NIST associates the following characteristics with trustworthy AI: valid and reliable, safe, secure and resilient, accountable and transparent, explainable and interpretable, privacy‑enhanced, and fair with harmful bias managed【E2】.",
+    "abstained": false,
+    "citation_format_pass": false,
+    "cited_pages": [],
+    "evidence": [
+      {
+        "id": "E1",
+        "page": 7,
+        "chunk_id": "p7_t520",
+        "text": "next, ai risks and trustworthi - ness are analyzed, outlining the characteristics of trustworthy ai systems, which include page 2"
+      },
+      {
+        "id": "E2",
+        "page": 17,
+        "chunk_id": "p17_t0",
+        "text": "characteristics of trustworthy ai systems include : valid and reliable, safe, secure and resilient, accountable and trans - parent, explainable and interpretable, privacy - enhanced, and fair with harmful bias managed."
+      },
+      {
+        "id": "E3",
+        "page": 17,
+        "chunk_id": "p17_t104",
+        "text": "creating trustworthy ai requires balancing each of these characteristics based on the ai system ’ s context of use."
+      }
+    ],
+    "prompt_tokens": 275,
+    "completion_tokens": 97,
+    "total_tokens": 372,
+    "finish_reason": "stop",
+    "manual_answer_review": "pending"
+  },
+  {
+    "question_id": "Q07",
+    "question": "What does valid and reliable mean in the context of AI systems?",
+    "gold_page": 18,
+    "answer": "In the NIST AI RMF, “valid” means that an AI system’s outputs are accurate and appropriate for the specific intended use or application, while “reliable” means that the system consistently performs as intended over time and across varied data and settings. These qualities are assessed through ongoing testing or monitoring that confirms the system’s validity, accuracy, robustness, and reliability, thereby contributing to overall trustworthiness [E1][E2].",
+    "abstained": false,
+    "citation_format_pass": true,
+    "cited_pages": [
+      18,
+      19
+    ],
+    "evidence": [
+      {
+        "id": "E1",
+        "page": 18,
+        "chunk_id": "p18_t416",
+        "text": "and reliable validation is the “ confirmation, through the provision of objective evidence, that the re - quirements for a specific intended use or application have been fulfilled ” ( source : iso 9000 : 2015 ). deployment of ai systems which are inaccurate, unreliable, or poorly gener - alized to data and settings beyond their training creates and increases negative ai risks and reduces trustworthiness."
+      },
+      {
+        "id": "E2",
+        "page": 19,
+        "chunk_id": "p19_t208",
+        "text": "validity and reliability for deployed ai systems are often assessed by ongoing testing or monitoring that confirms a system is performing as intended. measurement of validity, accuracy, robustness, and reliability contribute to trustworthiness and should"
+      },
+      {
+        "id": "E3",
+        "page": 17,
+        "chunk_id": "p17_t0",
+        "text": "characteristics of trustworthy ai systems include : valid and reliable, safe, secure and resilient, accountable and trans - parent, explainable and interpretable, privacy - enhanced, and fair with harmful bias managed."
+      }
+    ],
+    "prompt_tokens": 352,
+    "completion_tokens": 118,
+    "total_tokens": 470,
+    "finish_reason": "stop",
+    "manual_answer_review": "pending"
+  },
+  {
+    "question_id": "Q08",
+    "question": "How does NIST describe safety in AI systems?",
+    "gold_page": 19,
+    "answer": "NIST describes AI safety as the systematic prevention of unintended or harmful behavior through responsible design, development, and deployment practices, clear guidance to deployers, responsible decision‑making by users, and ongoing monitoring and documentation of risks, including the ability to shut down or modify systems that deviate from intended functionality [E1][E2][E3].",
+    "abstained": false,
+    "citation_format_pass": true,
+    "cited_pages": [
+      19,
+      20,
+      35
+    ],
+    "evidence": [
+      {
+        "id": "E1",
+        "page": 20,
+        "chunk_id": "p20_t0",
+        "text": "other practical approaches for ai safety often relate to rigorous simulation and in - domain testing, real - time monitoring, and the ability to shut down, modify, or have human inter - vention into systems that deviate from intended or expected functionality."
+      },
+      {
+        "id": "E2",
+        "page": 19,
+        "chunk_id": "p19_t416",
+        "text": "safe operation of ai systems is improved through : • responsible design, development, and deployment practices ; • clear information to deployers on responsible use of the system ; • responsible decision - making by deployers and end users ; and • explanations and documentation of risks based on empirical evidence of incidents. different types of safety risks may require tailored ai risk management approaches based on context and the severity of potential risks presented."
+      },
+      {
+        "id": "E3",
+        "page": 35,
+        "chunk_id": "p35_t0",
+        "text": "6 : the ai system is evaluated regularly for safety risks – as identified in the map function."
+      }
+    ],
+    "prompt_tokens": 336,
+    "completion_tokens": 85,
+    "total_tokens": 421,
+    "finish_reason": "stop",
+    "manual_answer_review": "pending"
+  },
+  {
+    "question_id": "Q09",
+    "question": "Why are security and resilience important for trustworthy AI?",
+    "gold_page": 20,
+    "answer": "Security and resilience are essential for trustworthy AI because they ensure that systems can withstand unexpected or adversarial use, protecting against misuse and abuse of models or data, and they provide accountability and transparency that underpin trustworthiness [E1]. By mitigating negative risks and supporting benefits for people, organizations, and ecosystems, secure and resilient AI contributes directly to the overall trustworthiness of the system [E2]. These qualities are explicitly evaluated and documented as part of the AI system’s security and resilience assessment [E3].",
+    "abstained": false,
+    "citation_format_pass": true,
+    "cited_pages": [
+      10,
+      20,
+      35
+    ],
+    "evidence": [
+      {
+        "id": "E1",
+        "page": 20,
+        "chunk_id": "p20_t312",
+        "text": "resilience relates to robustness and goes beyond the provenance of the data to encompass unexpected or adversarial use ( or abuse or misuse ) of the model or data. 4 accountable and transparent trustworthy ai depends upon accountability."
+      },
+      {
+        "id": "E2",
+        "page": 10,
+        "chunk_id": "p10_t0",
+        "text": "trustworthy ai systems and their responsible use can mitigate negative risks and contribute to benefits for people, organizations, and ecosystems."
+      },
+      {
+        "id": "E3",
+        "page": 35,
+        "chunk_id": "p35_t104",
+        "text": "7 : ai system security and resilience – as identified in the map function – are evaluated and documented."
+      }
+    ],
+    "prompt_tokens": 274,
+    "completion_tokens": 113,
+    "total_tokens": 387,
+    "finish_reason": "stop",
+    "manual_answer_review": "pending"
+  },
+  {
+    "question_id": "Q10",
+    "question": "What is the difference between explainability and interpretability?",
+    "gold_page": 21,
+    "answer": "Explainability refers to a representation of the mechanisms underlying an AI system’s operation, while interpretability refers to the meaning of the system’s output in the context of its designed functional purposes. [E1]",
+    "abstained": false,
+    "citation_format_pass": true,
+    "cited_pages": [
+      21
+    ],
+    "evidence": [
+      {
+        "id": "E1",
+        "page": 21,
+        "chunk_id": "p21_t312",
+        "text": "5 explainable and interpretable explainability refers to a representation of the mechanisms underlying ai systems ’ oper - ation, whereas interpretability refers to the meaning of ai systems ’ output in the context of their designed functional purposes."
+      },
+      {
+        "id": "E2",
+        "page": 22,
+        "chunk_id": "p22_t0",
+        "text": "( see “ four principles of explainable artificial intelligence ” and “ psychological foundations of explainability and interpretability in artificial intelligence ” found here. ) transparency, explainability, and interpretability are distinct characteristics that support each other."
+      },
+      {
+        "id": "E3",
+        "page": 21,
+        "chunk_id": "p21_t416",
+        "text": "explainable and interpretable ai systems offer information that will help end users understand the purposes and potential impact of an ai system. risk from lack of explainability may be managed by describing how ai systems function, with descriptions tailored to individual differences such as the user ’ s role, knowledge, and skill level."
+      }
+    ],
+    "prompt_tokens": 340,
+    "completion_tokens": 54,
+    "total_tokens": 394,
+    "finish_reason": "stop",
+    "manual_answer_review": "pending"
+  },
+  {
+    "question_id": "Q11",
+    "question": "How does the framework address privacy in AI systems?",
+    "gold_page": 22,
+    "answer": "The framework emphasizes that privacy values—such as anonymity, confidentiality, and control—should guide AI system design, development, and deployment, and it encourages the use of privacy‑enhancing technologies (PETs) and data‑minimizing methods like de‑identification and aggregation to support privacy‑enhanced AI systems. It also recommends leveraging existing standards and guidance, including the NIST Privacy Framework, to reduce security and privacy risks in AI deployments. [E1] [E3]",
+    "abstained": false,
+    "citation_format_pass": true,
+    "cited_pages": [
+      22
+    ],
+    "evidence": [
+      {
+        "id": "E1",
+        "page": 22,
+        "chunk_id": "p22_t208",
+        "text": "( see the nist privacy framework : a tool for improving privacy through enterprise risk management. ) privacy values such as anonymity, confidentiality, and control generally should guide choices for ai system design, development, and deployment."
+      },
+      {
+        "id": "E2",
+        "page": 44,
+        "chunk_id": "p44_t104",
+        "text": "part of the effort to address ai trustworthi - ness characteristics such as “ secure and resilient ” and “ privacy - enhanced, ” organizations may consider leveraging available standards and guidance that provide broad guidance to organizations to reduce security and privacy risks, such as, but not limited to, the nist cy - bersecurity framework, the nist privacy framework, the nist risk management frame - work, and the secure software development framework. these frameworks have some features in common with the ai rmf."
+      },
+      {
+        "id": "E3",
+        "page": 22,
+        "chunk_id": "p22_t312",
+        "text": "privacy - enhancing technologies ( “ pets ” ) for ai, as well as data minimizing methods such as de - identification and aggregation for certain model outputs, can support design for privacy - enhanced ai systems."
+      }
+    ],
+    "prompt_tokens": 370,
+    "completion_tokens": 118,
+    "total_tokens": 488,
+    "finish_reason": "stop",
+    "manual_answer_review": "pending"
+  },
+  {
+    "question_id": "Q12",
+    "question": "What role does harmful bias play in AI fairness?",
+    "gold_page": 22,
+    "answer": "Harmful bias undermines AI fairness by creating and amplifying inequities, leading to discrimination against individuals, groups, and communities, and it is closely linked to transparency and the overall fairness of AI systems [E1][E2].",
+    "abstained": false,
+    "citation_format_pass": true,
+    "cited_pages": [
+      22,
+      23
+    ],
+    "evidence": [
+      {
+        "id": "E1",
+        "page": 22,
+        "chunk_id": "p22_t312",
+        "text": "7 fair – with harmful bias managed fairness in ai includes concerns for equality and equity by addressing issues such as harm - ful bias and discrimination."
+      },
+      {
+        "id": "E2",
+        "page": 23,
+        "chunk_id": "p23_t208",
+        "text": "while bias is not always a negative phenomenon, ai sys - tems can potentially increase the speed and scale of biases and perpetuate and amplify harms to individuals, groups, communities, organizations, and society. bias is tightly asso - ciated with the concepts of transparency as well as fairness in society."
+      },
+      {
+        "id": "E3",
+        "page": 4,
+        "chunk_id": "p4_t104",
+        "text": "7 fair – with harmful bias managed 17 4 effectiveness of the ai rmf 19 part 2 : core and profiles 20 5 ai rmf core 20 5. 4 manage 31 6 ai rmf profiles 33 appendix a : descriptions of ai actor tasks from figures 2 and 3 35 appendix b : how ai risks differ from traditional software risks 38 appendix c : ai risk management and human - ai interaction 40 appendix d : attributes"
+      }
+    ],
+    "prompt_tokens": 376,
+    "completion_tokens": 80,
+    "total_tokens": 456,
+    "finish_reason": "stop",
+    "manual_answer_review": "pending"
+  },
+  {
+    "question_id": "Q13",
+    "question": "What are AI RMF profiles used for?",
+    "gold_page": 38,
+    "answer": "AI RMF profiles are used to help organizations decide how to manage AI risk in a way that aligns with their goals, legal and regulatory requirements, best practices, and risk‑management priorities. They provide concrete implementations of the framework’s functions, categories, and subcategories for a specific setting or application based on the organization’s requirements, risk tolerance, and resources. [E1] [E3]",
+    "abstained": false,
+    "citation_format_pass": true,
+    "cited_pages": [
+      38
+    ],
+    "evidence": [
+      {
+        "id": "E1",
+        "page": 38,
+        "chunk_id": "p38_t104",
+        "text": "ai rmf profiles ai rmf use - case profiles are implementations of the ai rmf functions, categories, and subcategories for a specific setting or application based on the requirements, risk tolerance, and resources"
+      },
+      {
+        "id": "E2",
+        "page": 47,
+        "chunk_id": "p47_t0",
+        "text": "0 appendix d : attributes of the ai rmf nist described several key attributes of the ai rmf when work on the framework first began. these attributes have remained intact and were used to guide the ai rmf ’ s devel - opment."
+      },
+      {
+        "id": "E3",
+        "page": 38,
+        "chunk_id": "p38_t208",
+        "text": "ai rmf profiles assist organizations in deciding how they might best manage ai risk that is well - aligned with their goals, considers legal / regulatory requirements and best practices, and reflects risk management priorities. ai rmf temporal profiles are descriptions of either"
+      }
+    ],
+    "prompt_tokens": 328,
+    "completion_tokens": 100,
+    "total_tokens": 428,
+    "finish_reason": "stop",
+    "manual_answer_review": "pending"
+  },
+  {
+    "question_id": "Q14",
+    "question": "How does the framework describe accountability and transparency?",
+    "gold_page": 20,
+    "answer": "The framework defines accountability and transparency as core characteristics of a trustworthy AI system, emphasizing that they involve both the internal processes of the AI and its external context. It states that accountability and transparency require that information about the AI system and its outputs be available and that measures to enhance them must consider the implementing entity’s resources and protection of proprietary information. This ensures that the system’s operations are both responsible and openly documented. [E2] [E3] [E1]",
+    "abstained": false,
+    "citation_format_pass": true,
+    "cited_pages": [
+      17,
+      20,
+      21
+    ],
+    "evidence": [
+      {
+        "id": "E1",
+        "page": 21,
+        "chunk_id": "p21_t104",
+        "text": "measures to enhance transparency and accountability should also consider the impact of these efforts on the implementing entity, including the level of necessary resources and the need to safeguard proprietary information."
+      },
+      {
+        "id": "E2",
+        "page": 17,
+        "chunk_id": "p17_t104",
+        "text": "while all characteristics are socio - technical system at - tributes, accountability and transparency also relate to the processes and activities internal to an ai system and its external setting."
+      },
+      {
+        "id": "E3",
+        "page": 20,
+        "chunk_id": "p20_t312",
+        "text": "4 accountable and transparent trustworthy ai depends upon accountability. transparency reflects the extent to which information about an ai system and its outputs is available to"
+      }
+    ],
+    "prompt_tokens": 281,
+    "completion_tokens": 113,
+    "total_tokens": 394,
+    "finish_reason": "stop",
+    "manual_answer_review": "pending"
+  },
+  {
+    "question_id": "Q15",
+    "question": "Why is AI risk management considered a continuous process?",
+    "gold_page": 25,
+    "answer": "AI risk management is considered a continuous process because it must be performed throughout the AI system lifecycle, with ongoing monitoring and periodic review of the risk management process and its outcomes, and mechanisms to inventory AI systems that are resourced according to organizational risk priorities [E1][E2]. This continuous approach ensures that risk is integrated across all AI actors and roles, preventing isolation of risk considerations and allowing timely updates as the system evolves [E3].",
+    "abstained": false,
+    "citation_format_pass": true,
+    "cited_pages": [
+      13,
+      25,
+      28
+    ],
+    "evidence": [
+      {
+        "id": "E1",
+        "page": 25,
+        "chunk_id": "p25_t104",
+        "text": "risk management should be continuous, timely, and performed throughout the ai system lifecycle dimensions."
+      },
+      {
+        "id": "E2",
+        "page": 28,
+        "chunk_id": "p28_t0",
+        "text": "5 : ongoing monitoring and periodic review of the risk management process and its outcomes are planned and or - ganizational roles and responsibilities clearly defined, including determining the frequency of periodic review. 6 : mechanisms are in place to inventory ai systems and are resourced according to organizational risk priorities."
+      },
+      {
+        "id": "E3",
+        "page": 13,
+        "chunk_id": "p13_t312",
+        "text": "4 organizational integration and management of risk ai risks should not be considered in isolation. different ai actors have different responsi - bilities and awareness depending on their roles in the lifecycle."
+      }
+    ],
+    "prompt_tokens": 298,
+    "completion_tokens": 103,
+    "total_tokens": 401,
+    "finish_reason": "stop",
+    "manual_answer_review": "pending"
+  }
+]

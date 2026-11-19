@@ -1,0 +1,39 @@
+{
+  "evaluation_method": "Dense cosine retrieval with manually verified source passages and an automated evidence-overlap proxy. Failure cases manually inspected.",
+  "failures": [
+    {
+      "question_id": "Q15",
+      "question": "Why is AI risk management considered a continuous process?",
+      "failure_type": "Gold-passage ranking failure",
+      "gold_page": 25,
+      "small_gold_rank": 14,
+      "large_gold_rank": 12,
+      "observation": "Both chunk sizes rank the annotated passage outside the top five. The large configuration does retrieve alternative supporting evidence on pages 36 and 15.",
+      "proposed_fixes": [
+        "Combine dense retrieval with BM25.",
+        "Re-rank candidates using query-passage relevance.",
+        "Evaluate alternative valid supporting passages."
+      ]
+    },
+    {
+      "question_id": "Q10",
+      "question": "What is the difference between explainability and interpretability?",
+      "failure_type": "Top-ranked chunk lacks complete answer",
+      "gold_page": 21,
+      "small_top1_answer_sufficient": true,
+      "large_top1_answer_sufficient": false,
+      "observation": "The 128-token top-ranked chunk explicitly defines both concepts. The 224-token top-ranked chunk discusses their benefits but omits the explicit distinction.",
+      "proposed_fixes": [
+        "Use section-aware chunking.",
+        "Preserve definitions within chunk boundaries.",
+        "Use answer-aware re-ranking."
+      ]
+    }
+  ],
+  "limitations": [
+    "Only 15 evaluation questions.",
+    "Single 48-page source document.",
+    "Evidence-overlap matching is not equivalent to answer sufficiency.",
+    "Proposed fixes have not yet been experimentally tested."
+  ]
+}

@@ -1,0 +1,140 @@
+question_id,question,gold_page,gold_passage,start_char,end_char,verified
+Q01,What are the four core functions of the AI RMF?,25,"NIST AI 100-1
+AI RMF 1.0
+Part 2: Core and Profiles
+5.
+AI RMF Core
+The AI RMF Core provides outcomes and actions that enable dialogue, understanding, and
+activities to manage AI risks and responsibly develop trustworthy AI systems. As illus-
+trated in Figure 5, the Core is composed of four functions: GOVERN, MAP, MEASURE,
+and MANAGE. Each of these high-level functions is broken down into categories and sub-
+categories. Categories and subcategories are subdivided into specific actions and outcomes.
+Actions do not constitute a checklist, nor are",0,549,True
+Q02,What is the purpose of the GOVERN function?,27,"with it, organizational
+culture. Management aligns the technical aspects of AI risk management to policies and
+operations. Documentation can enhance transparency, improve human review processes,
+and bolster accountability in AI system teams.
+After putting in place the structures, systems, processes, and teams described in the GOV-
+ERN function, organizations should benefit from a purpose-driven culture focused on risk
+understanding and management. It is incumbent on Framework users to continue to ex-
+ecute the GOVERN function as knowledge,",783,1329,True
+Q03,What does the MAP function establish about an AI system?,29,"of in-
+fringement of a third-party’s intellectual property or other rights.
+GOVERN 6.2: Contingency processes are in place to handle
+failures or incidents in third-party data or AI systems deemed to
+be high-risk.
+Categories
+Subcategories
+5.2
+Map
+The MAP function establishes the context to frame risks related to an AI system. The AI
+lifecycle consists of many interdependent activities involving a diverse set of actors (See
+Figure 3). In practice, AI actors in charge of one part of the process often do not have full
+visibility or control over",1300,1847,True
+Q04,What is the purpose of the MEASURE function?,33,"are in place and
+documented.
+Categories
+Subcategories
+5.3
+Measure
+The MEASURE function employs quantitative, qualitative, or mixed-method tools, tech-
+niques, and methodologies to analyze, assess, benchmark, and monitor AI risk and related
+impacts. It uses knowledge relevant to AI risks identified in the MAP function and informs
+the MANAGE function. AI systems should be tested before their deployment and regu-
+larly while in operation. AI risk measurements include documenting aspects of systems’
+functionality and trustworthiness.",267,803,True
+Q05,How does the MANAGE function address identified AI risks?,37,"or deployment should proceed.
+MANAGE 1.2: Treatment of documented AI risks is prioritized
+based on impact, likelihood, and available resources or methods.
+MANAGE 1.3: Responses to the AI risks deemed high priority, as
+identified by the MAP function, are developed, planned, and doc-
+umented. Risk response options can include mitigating, transfer-
+ring, avoiding, or accepting.
+MANAGE 1.4: Negative residual risks (defined as the sum of all
+unmitigated risks) to both downstream acquirers of AI systems
+and end users are documented.
+MANAGE",528,1068,True
+Q06,What characteristics does NIST associate with trustworthy AI?,17,"AI risks. This Framework articulates the following characteristics of
+trustworthy AI and offers guidance for addressing them. Characteristics of trustworthy AI
+systems include: valid and reliable, safe, secure and resilient, accountable and trans-
+parent, explainable and interpretable, privacy-enhanced, and fair with harmful bias
+managed. Creating trustworthy AI requires balancing each of these characteristics based
+on the AI system’s context of use. While all characteristics are socio-technical system at-
+tributes, accountability and",261,802,True
+Q07,What does valid and reliable mean in the context of AI systems?,18,"3.1
+Valid and Reliable
+Validation is the “confirmation, through the provision of objective evidence, that the re-
+quirements for a specific intended use or application have been fulfilled” (Source: ISO
+9000:2015). Deployment of AI systems which are inaccurate, unreliable, or poorly gener-
+alized to data and settings beyond their training creates and increases negative AI risks and
+reduces trustworthiness.
+Reliability is defined in the same standard as the “ability of an item to perform as required,
+without failure, for a given time interval, under given conditions” (Source: ISO/IEC TS
+5723:2022). Reliability is a goal for overall correctness of AI system operation under the
+conditions of expected use and over a given period of time, including the entire lifetime of
+the system.",2197,2984,True
+Q08,How does NIST describe safety in AI systems?,19,"or the environment is endangered” (Source: ISO/IEC TS 5723:2022). Safe
+operation of AI systems is improved through:
+• responsible design, development, and deployment practices;
+• clear information to deployers on responsible use of the system;
+• responsible decision-making by deployers and end users; and
+• explanations and documentation of risks based on empirical evidence of incidents.
+Different types of safety risks may require tailored AI risk management approaches based
+on context and the severity of potential risks presented.",2087,2624,True
+Q09,Why are security and resilience important for trustworthy AI?,20,"here.
+Security and resilience are related but distinct characteristics. While resilience is the abil-
+ity to return to normal function after an unexpected adverse event, security includes re-
+silience but also encompasses protocols to avoid, protect against, respond to, or recover
+from attacks. Resilience relates to robustness and goes beyond the provenance of the data
+to encompass unexpected or adversarial use (or abuse or misuse) of the model or data.
+3.4
+Accountable and Transparent
+Trustworthy AI depends upon accountability.",1570,2104,True
+Q10,What is the difference between explainability and interpretability?,21,"Explainability refers to a representation of the mechanisms underlying AI systems’ oper-
+ation, whereas interpretability refers to the meaning of AI systems’ output in the context
+of their designed functional purposes. Together, explainability and interpretability assist
+those operating or overseeing an AI system, as well as users of an AI system, to gain
+deeper insights into the functionality and trustworthiness of the system, including its out-
+puts. The underlying assumption is that perceptions of negative risk stem from a lack of",1826,2366,True
+Q11,How does the framework address privacy in AI systems?,22,"(e.g., body, data, reputation). (See The NIST Privacy Framework: A Tool
+for Improving Privacy through Enterprise Risk Management.)
+Privacy values such as anonymity, confidentiality, and control generally should guide choices
+for AI system design, development, and deployment. Privacy-related risks may influence
+security, bias, and transparency and come with tradeoffs with these other characteristics.
+Like safety and security, specific technical features of an AI system may promote or reduce
+privacy. AI systems can also present new risks",1047,1589,True
+Q12,What role does harmful bias play in AI fairness?,22,"3.7
+Fair – with Harmful Bias Managed
+Fairness in AI includes concerns for equality and equity by addressing issues such as harm-
+ful bias and discrimination. Standards of fairness can be complex and difficult to define be-
+cause perceptions of fairness differ among cultures and may shift depending on application.
+Organizations’ risk management efforts will be enhanced by recognizing and considering
+these differences. Systems in which harmful biases are mitigated are not necessarily fair.
+For example, systems in which predictions are",2087,2626,True
+Q13,What are AI RMF profiles used for?,38,"including affected communities. Processes for track-
+ing, responding to, and recovering from incidents and errors are
+followed and documented.
+Categories
+Subcategories
+6.
+AI RMF Profiles
+AI RMF use-case profiles are implementations of the AI RMF functions, categories, and
+subcategories for a specific setting or application based on the requirements, risk tolerance,
+and resources of the Framework user: for example, an AI RMF hiring profile or an AI
+RMF fair housing profile. Profiles may illustrate and offer insights into how risk can be",786,1328,True
+Q14,How does the framework describe accountability and transparency?,20,"against, respond to, or recover
+from attacks. Resilience relates to robustness and goes beyond the provenance of the data
+to encompass unexpected or adversarial use (or abuse or misuse) of the model or data.
+3.4
+Accountable and Transparent
+Trustworthy AI depends upon accountability. Accountability presupposes transparency.
+Transparency reflects the extent to which information about an AI system and its outputs is
+available to individuals interacting with such a system – regardless of whether they are even
+aware that they are doing so.",1820,2361,True
+Q15,Why is AI risk management considered a continuous process?,25,"a checklist, nor are they necessarily an ordered set of steps.
+Fig. 5. Functions organize AI risk management activities at their highest level to govern, map,
+measure, and manage AI risks. Governance is designed to be a cross-cutting function to inform
+and be infused throughout the other three functions.
+Risk management should be continuous, timely, and performed throughout the AI system
+lifecycle dimensions. AI RMF Core functions should be carried out in a way that reflects
+diverse and multidisciplinary perspectives, potentially",528,1064,True

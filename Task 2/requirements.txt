@@ -1,0 +1,9 @@
+numpy
+pandas
+pymupdf
+sentence-transformers
+transformers
+groq
+python-dotenv
+streamlit
+pytest

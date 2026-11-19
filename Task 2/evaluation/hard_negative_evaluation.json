@@ -1,0 +1,67 @@
+[
+  {
+    "question_id": "H01",
+    "question": "What exact annual budget in US dollars does the NIST AI RMF assign to the GOVERN function?",
+    "expected": "abstain",
+    "answer": "Insufficient information in the retrieved document.",
+    "abstained": true,
+    "llm_called": false,
+    "lexical_coverage": 0.4444,
+    "abstention_reason": "evidence_gate",
+    "evidence": []
+  },
+  {
+    "question_id": "H02",
+    "question": "What exact percentage improvement in AI model accuracy does the MEASURE function guarantee?",
+    "expected": "abstain",
+    "answer": "Insufficient information in the retrieved document.",
+    "abstained": true,
+    "llm_called": false,
+    "lexical_coverage": 0.25,
+    "abstention_reason": "evidence_gate",
+    "evidence": []
+  },
+  {
+    "question_id": "H03",
+    "question": "What exact numerical fairness score must every AI system achieve under the NIST AI RMF?",
+    "expected": "abstain",
+    "answer": "Insufficient information in the retrieved document.",
+    "abstained": true,
+    "llm_called": false,
+    "lexical_coverage": 0.2727,
+    "abstention_reason": "evidence_gate",
+    "evidence": []
+  },
+  {
+    "question_id": "H04",
+    "question": "What specific fine amount in US dollars does the AI RMF impose when organizations fail to manage AI risks?",
+    "expected": "abstain",
+    "answer": "The AI Risk Management Framework (AI RMF) imposes a fine amount of $50,000 per organization if they fail to manage AI risks effectively.",
+    "abstained": false,
+    "llm_called": true,
+    "lexical_coverage": 0.5,
+    "abstention_reason": null,
+    "evidence": [
+      {
+        "page": 47,
+        "chunk_id": "p47_t104",
+        "text": "the ai rmf should allow for communication of ai risks across an organization, between organizations, with customers, and to the public at large. provide common language and understanding to manage ai risks."
+      },
+      {
+        "page": 7,
+        "chunk_id": "p7_t208",
+        "text": "116 - 283 ), the goal of the ai rmf is to offer a resource to the organizations designing, developing, deploying, or using ai systems to help manage the many risks of ai and promote trustwor - thy and responsible development and use of ai systems. the framework is intended to be voluntary, rights - preserving, non - sector - specific, and use - case agnostic, providing flexibil - ity to organizations of all sizes and in all sectors and throughout society to implement the approaches in the framework."
+      },
+      {
+        "page": 24,
+        "chunk_id": "p24_t0",
+        "text": "organizations and other users of the framework are encouraged to periodically evaluate whether the ai rmf has improved their ability to manage ai risks, including but not lim - ited to their policies, processes, practices, implementation plans, indicators, measurements, and expected outcomes."
+      },
+      {
+        "page": 13,
+        "chunk_id": "p13_t0",
+        "text": "0 when applying the ai rmf, risks which the organization determines to be highest for the ai systems within a given context of use call for the most urgent prioritization and most thorough risk management process."
+      }
+    ]
+  }
+]
